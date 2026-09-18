@@ -23,7 +23,8 @@ Default for Claude Desktop
         "/Users/ian/heyzack/server.py"
       ]
     }
-  },```
+  },
+```
 
 
 The default robot configuration uses an **18:1 motor on port 1**.
