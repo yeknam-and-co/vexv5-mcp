@@ -14,6 +14,18 @@ python -m pip install fastmcp pyserial
 2. Connect the Brain over USB and close any serial monitors.
 3. Configure your MCP client to launch `robot_server.py` using Python over **stdio**.
 
+Default for Claude Desktop
+```json
+  "mcpServers": {
+    "robot": {
+      "command": "/Users/ian/heyzack/venv/bin/python",
+      "args": [
+        "/Users/ian/heyzack/server.py"
+      ]
+    }
+  },```
+
+
 The default robot configuration uses an **18:1 motor on port 1**.
 
 ## Files
